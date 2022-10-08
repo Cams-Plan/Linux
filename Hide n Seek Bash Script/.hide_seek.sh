@@ -48,3 +48,7 @@ printf "\n      HIDING FILE..."
 mv hide_seek.sh .hide_seek.sh
 sleep 2
 printf "\n      File hidden successfully.\n"
+
+
+
+#By Cams-Plan (GitHub)
