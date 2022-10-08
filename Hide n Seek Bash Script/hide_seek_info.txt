@@ -11,3 +11,7 @@ printf (printing strings)
 *IMPORTANT NOTE:*
 be sure to check your bin/bash path with 'which bash'. Copy the path and cross-check it with the file
 using a file editor to ensure there's a match. If not, change the path so it matches your terminal.
+
+
+Happy Downloading!
+Cams-Plan
