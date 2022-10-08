@@ -1,0 +1,13 @@
+hide_seek_info.txt
+
+The file named '.hide_seek.sh' is a bash script for practicing flow and automation of multiple commands.
+
+Commands:
+mv (hiding and un-hiding files)
+ls -R (recurive directory listing)
+find -iname (finding files by specific name)
+printf (printing strings)
+
+*IMPORTANT NOTE:*
+be sure to check your bin/bash path with 'which bash'. Copy the path and cross-check it with the file
+using a file editor to ensure there's a match. If not, change the path so it matches your terminal.
