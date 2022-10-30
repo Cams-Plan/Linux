@@ -1,16 +1,39 @@
 hide_seek_info.txt
 
 The file named '.hide_seek.sh' is a bash script for practicing flow and automation of multiple commands.
+BUT, before running the bash script, you need to some minor setup
 
-Commands:
-mv (hiding and un-hiding files)
-ls -R (recurive directory listing)
-find -iname (finding files by specific name)
-printf (printing strings)
+*PLEASE READ INSTRUCTIONS CAREFULLY*
+
+STEP 1) 
+    Create a directory called 'test_scripts' in your home directory.
+    - enter your home directory with the cd command and use pwd to check. pwd output should be /home/username/
+    - once correct directory is confirmed, make a directory called test_scripts
+
+STEP 2)
+    Find your shell interpreter path (bash) and put it into the .sh file 
+    - enter the command 'which bash' into your terminal to find the path to execute bash. e.g. /usr/bin/bash or /bin/bash
+        *iF YOUR PATH IS /usr/bin/bash, THEN SKIP TO STEP 3* - if not, then continue
+    -copy that path
+    - edit the .hide_seek.sh file using nano, and enter that path after #! e.g. #!/bin/bash 
+
+STEP 3)
+    Edit the file paths in the .sh file
+    - use and editor to edit the .hide_seek.sh file
+    - any comment that says *EDIT THE COMMENT BELOW* has commands that need to be modified to suit your machine
+        where you see <HOME DIRECTORY>, replace it with your home directory path. e.g. /home/jbloggs/
+
+
+
+Commands Used:
+    mv (hiding and un-hiding files)
+    ls -1 (directory listing one file per line)
+    find -iname (finding files by specific name)
+    printf (printing strings)
 
 *IMPORTANT NOTE:*
-be sure to check your bin/bash path with 'which bash'. Copy the path and cross-check it with the file
-using a file editor to ensure there's a match. If not, change the path so it matches your terminal.
+    be sure to check your bin/bash path with 'which bash'. Copy the path and cross-check it with the file
+    using a file editor to ensure there's a match. If not, change the path so it matches your terminal.
 
 
 Happy Downloading!
